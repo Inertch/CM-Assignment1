@@ -1,6 +1,15 @@
+import math
+
+
 def f(x):
-    return x**3 - 2*x +4
+    return x ** 3 - 2 * x + 4
 
 
 def df(x):
-    return ((x**2))*3 - x*2
+    return (x ** 2) * 3 - x * 2
+
+
+def g(x):
+    return math.cbrt(2*x - 4)
+
+

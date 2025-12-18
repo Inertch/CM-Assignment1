@@ -3,7 +3,7 @@ from functionsAndDerivatives import f
 
 def bisection(a, b, E, max_iter):
     if (f(a) * f(b)) >= 0:
-        raise ValueError("Incompatible points")
+        return print("Incompatible points")
     for i in range(max_iter):
         c = (a + b) / 2
         if abs(f(c)) < E or (b - a) / 2 < E:
