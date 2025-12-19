@@ -16,7 +16,7 @@ fpRoot = fixed_point(1, 1e-3, 50)
 print("Root with fixed-point:", fpRoot)
 
 sRoot = secant(1, 3, 1e-3, 50)
-print("Root with Secant:", sRoot)
+print("Root with secant:", sRoot)
 
 fpRoot = false_position(-4, 3, 1e-3, 50)
 print("Root with false position:", fpRoot)

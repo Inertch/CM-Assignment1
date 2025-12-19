@@ -3,6 +3,7 @@ import cmath
 
 
 def muller(x0, x1, x2, E, max_iter):
+    global x3
     for i in range(max_iter):
         h1 = x1 - x0
         h2 = x2 - x1
